@@ -1,8 +1,10 @@
-import { books } from "./books_data";
+import { books_data } from "./books_data";
 import Book_91 from "./Book_91";
+import { useState } from "react";
 
 const Booklist_91 = () => {
-  console.log("books_data", books);
+  console.log("books_data", books_data);
+  const [books, setBooks] = useState(books_data);
   return (
     <section className="booklist">
       {books.map((book) => {

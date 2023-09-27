@@ -1,4 +1,4 @@
-export const books = [
+export const books_data = [
   {
     id: 1,
     img: "https://cf-assets2.tenlong.com.tw/products/images/000/189/330/medium/9787121452963.jpg?1681967788",
